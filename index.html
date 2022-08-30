@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
-  <body>
-    <header class="nav">
-      <div>
-        <img src="images/LogoPlaceholder.png" alt="logo" id="logo" />
-      </div>
-      <div class="menu"></div>
+  
+    <header >
+      <nav>
+        <div>
+          <img src="images/LogoPlaceholder.png" alt="logo" id="logo" />
+        </div>
+        <div class="menu"></div>
+      </nav>  
     </header>
+    <article>
     <div id="intro">
       <h1>Laura Jong</h1>
       <h2>Software Develpment</h2>
@@ -72,6 +75,8 @@
         </table>
       </div>
     </div>
+  </article>
+  <section>
 
     <img src="images/Vectorline.png" alt="Vector" class="vectorline" />
     <div id="social">
@@ -193,6 +198,8 @@
         </div>
       </div>
     </div>
+  </section>
+  <footer>
     <div id="contactus">
       <div class="contact">
         <h4>Contact Us</h4>
@@ -204,9 +211,9 @@
       </div>
 
       <form class="contantform">
-        <input type="text" name="name" id="name" placeholder="Text Input" />
-        <input type="text" name="email" placeholder="mail@example.ir" />
-        <textarea name="text" placeholder="Input text here "></textarea>
+        <input type="text" name="name" id="name" placeholder="Text Input" required maxlength="30" />
+        <input type="email" name="email" placeholder="mail@example.ir" required />
+        <textarea name="text" maxlength="500" placeholder="Input text here "></textarea>
       </form>
       <button class="button" type="button">See Project</button>
       <img src="images/Vectorline.png" alt="Vector" class="vectorline" />
@@ -220,5 +227,7 @@
 
       <p id="email">masouma2020@gmail.com</p>
     </div>
+  </footer>
+   
   </body>
 </html>

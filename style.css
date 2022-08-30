@@ -12,7 +12,7 @@ body {
   margin: auto;
 }
 
-.nav {
+nav {
   display: flex;
   flex-direction: row;
   align-items: center;
